@@ -14,8 +14,8 @@ messaging_service_sid = "{placeholder:messaging_service_sid}"
 
 twilio_client = Client(account_sid, auth_token)
 
-commodity_id = "{placeholder:rate}"  # Commodity ID.
-threshold = "{placeholder:rate_level}"  # Threshold value.
+commodity_id = "BTC-USD"  # Commodity ID.
+threshold = "50000"  # Threshold value.
 phone_numbers = "{placeholder:numbers}".split(",")
 
 # Create a client factory. Factory helps you create StreamingClient (see below) a little bit easier
